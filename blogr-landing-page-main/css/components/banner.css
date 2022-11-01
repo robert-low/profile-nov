@@ -1,0 +1,42 @@
+.banner {
+  background-image: linear-gradient(to bottom right, rgb(255, 141, 114), rgb(255, 66, 89));
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  border-bottom-left-radius: 150px;
+  padding: 100px;
+  position: relative;
+  z-index: -1;
+}
+
+.banner img {
+  width: 110%;
+  object-fit: cover;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: -230px;
+  right: -100px;
+  object-fit: scale-down;
+}
+
+.container {
+  text-align: center;
+}
+
+#btn-white {
+  text-decoration: none;
+  padding: 8px;
+  border: solid;
+  border-radius: 8px;
+}
+
+#btn-clear {
+  background-color: white;
+  text-decoration: none;
+  padding: 8px;
+  border: solid white;
+  border-radius: 12px;
+}
